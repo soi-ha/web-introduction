@@ -1,9 +1,11 @@
+@import url(./main.css);
+
 :root {
 	--black-color: #09090b;
-	--gray-color: #cbd5e1;
-	--indigo-300-color: #a5b4fc;
-	--indigo-400-color: #818cf8;
-	--blue-color: #dbeafe;
+	--blue-100-color: #dbeafe;
+	--blue-50-color: #eff6ff;
+	--blue-300-color: #93c5fd;
+	--sky-blue-color: #f0f9ff;
 
 	--title-bold: 800;
 	--subtitle-bold: 700;
@@ -19,6 +21,10 @@ html {
 }
 
 body {
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
 	font: var(--default-bold) var(--default-font) / 1.25 'Gowun Dodum', sans-serif;
 	color: var(--black-color);
+	background-color: var(--blue-50-color);
 }
