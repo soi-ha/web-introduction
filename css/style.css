@@ -1,0 +1,24 @@
+:root {
+	--black-color: #09090b;
+	--gray-color: #cbd5e1;
+	--indigo-300-color: #a5b4fc;
+	--indigo-400-color: #818cf8;
+	--blue-color: #dbeafe;
+
+	--title-bold: 800;
+	--subtitle-bold: 700;
+	--semi-bold: 500;
+	--default-bold: 400;
+
+	--title-font: 2.4rem;
+	--subtitle-font: 2rem;
+	--default-font: 1.6rem;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font: var(--default-bold) var(--default-font) / 1.25 'Gowun Dodum', sans-serif;
+	color: var(--black-color);
+}
