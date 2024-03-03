@@ -11,6 +11,7 @@
 		<title>소하(최소연) - 자기소개 페이지</title>
 	</head>
 	<body>
+		<script defer src="../js/main.js"></script>
 		<header class="header">
 			<h1 class="header__title">소하(Soha)</h1>
 		</header>
@@ -101,22 +102,22 @@
 					<div class="form__song">
 						<p class="song__title">당신이 알고 있는 노래</p>
 						<div class="song__input-group">
-							<input type="checkbox" name="plave" id="plave" class="song__checkbox" />
+							<input type="checkbox" name="song" id="plave" value="Watch Me Woo!" class="song__checkbox" />
 							<label for="plave" class="song__label">Watch Me Woo! (PLAVE)</label>
 						</div>
 						<div class="song__input-group">
-							<input type="checkbox" name="le-sserafim" id="le-sserafim" class="song__checkbox" />
+							<input type="checkbox" name="song" id="le-sserafim" value=">EASY" class="song__checkbox" />
 							<label for="le-sserafim" class="song__label">EASY (LE SSERAFIM)</label>
 						</div>
 						<div class="song__input-group">
-							<input type="checkbox" name="halsey" id="halsey" class="song__checkbox" />
+							<input type="checkbox" name="song" id="halsey" value="Him & I" class="song__checkbox" />
 							<label for="halsey" class="song__label">Him & I (Halsey, G-Eazy)</label>
 						</div>
 					</div>
 				</form>
 				<div class="form__button-group">
-					<button type="submit" class="button-group__button">등록</button>
-					<button type="reset" class="button-group__button">취소</button>
+					<button class="button-group__button" id="submit-btn">등록</button>
+					<button class="button-group__button" id="reset-btn">취소</button>
 				</div>
 			</div>
 		</main>
