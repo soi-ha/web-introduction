@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 8rem;
+	border-top: 2px solid var(--blue-100-color);
+	padding: 2rem 0;
+}
+.footer__copyright {
+	font-weight: var(--title-bold);
+	margin-bottom: 1rem;
+}
+.github-link__img {
+	width: 3rem;
+}
