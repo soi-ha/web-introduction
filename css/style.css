@@ -4,20 +4,23 @@
 
 :root {
 	--black-color: #09090b;
-	--blue-100-color: #dbeafe;
+	--gray-color: #475569;
 	--blue-50-color: #eff6ff;
+	--blue-100-color: #dbeafe;
 	--blue-300-color: #93c5fd;
-	--sky-blue-color: #f0f9ff;
+	--blue-900-color: #1e3a8a;
+	--white-color: #fbfdff;
 
-	--title-bold: 800;
-	--subtitle-bold: 700;
-	--semi-bold: 500;
+	--title-bold: 900;
+	--subtitle-bold: 800;
+	--semi-bold: 600;
 	--default-bold: 400;
 
 	--title-font: 2.4rem;
-	--subtitle-font: 2rem;
+	--subtitle-font: 2.1rem;
 	--default-font: 1.6rem;
 }
+
 html {
 	font-size: 62.5%;
 }
@@ -27,6 +30,12 @@ body {
 	width: 100vw;
 	min-height: 100vh;
 	font: var(--default-bold) var(--default-font) / 1.25 'Gowun Dodum', sans-serif;
+	letter-spacing: 0.1rem;
 	color: var(--black-color);
 	background-color: var(--blue-50-color);
+}
+
+input,
+button {
+	font: var(--default-bold) var(--default-font) / 1.25 'Gowun Dodum', sans-serif;
 }

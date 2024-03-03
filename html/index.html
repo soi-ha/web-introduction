@@ -16,74 +16,99 @@
 		</header>
 		<main class="main">
 			<div class="main__self-introduce">
-				<h2 class="self-introduce__title">자기소개</h2>
+				<h2 class="self-introduce__title">🙋🏻‍♀️ 자기소개</h2>
 				<ul class="self-introduce__list">
-					<li class="list__content">이름: 소하(최소연)</li>
-					<li class="list__content">사는 곳: 경기도 수원시</li>
+					<li class="list__content"><span class="content__title">이름:</span> 소하(최소연)</li>
+					<li class="list__content"><span class="content__title">사는 곳:</span> 경기도 수원시</li>
 					<li class="list__content">
-						안녕하세요, 저는 소-하! 입니다 :) 아직 프론트엔드에 대해서 잘 몰라서 열심히 배우고 있습니다. 많이
-						부족하더라도 열심히 배울테니 잘 부탁드립니다.
+						안녕하세요, 저는 소-하! 입니다 :) <br />
+						아직 프론트엔드에 대해서 잘 몰라서 열심히 배우고 있습니다. <br />
+						많이 부족하더라도 열심히 배울테니 잘 부탁드립니다.
 					</li>
 				</ul>
 			</div>
 			<div class="main__current-playlist">
-				<h2 class="current-playlist__title">최근 나의 플레이리스트</h2>
+				<h2 class="current-playlist__title">🎵 최근 나의 플레이리스트</h2>
 				<table class="current-playlist__table">
 					<thead class="table__head">
 						<tr class="table__row">
-							<th class="table__data"></th>
-							<th class="table__data">앨범 커버</th>
-							<th class="table__data">곡 명</th>
-							<th class="table__data">아티스트</th>
-							<th class="table__data">작사/작곡</th>
+							<th scope="col" class="table__data order">순서</th>
+							<th scope="col" class="table__data album-cover">앨범 커버</th>
+							<th scope="col" class="table__data song-name">곡 명</th>
+							<th scope="col" class="table__data artist">아티스트</th>
+							<th scope="col" class="table__data lyrics-composition">작사/작곡</th>
 						</tr>
 					</thead>
 					<tbody class="table__body">
 						<tr class="table__row">
-							<td class="table__data">1</td>
-							<td class="table__data"><img src="" alt="" /></td>
-							<td class="table__data">Watch Me Woo!</td>
-							<td class="table__data">PLAVE</td>
-							<td class="table__data">PLAVE, Vendors(Arte), Revin, YEZI, Vendors(Fascinador)</td>
+							<td class="table__data order">1</td>
+							<td class="table__data album-cover">
+								<img
+									class="album-cover__img"
+									src="https://musicmeta-phinf.pstatic.net/album/030/888/30888263.jpg?type=r360Fll&v=20240227141323"
+									alt="ASTERUM : 134-1"
+								/>
+							</td>
+							<td class="table__data song-name">
+								<a href="https://vibe.naver.com/track/83108455"> Watch Me Woo! </a>
+							</td>
+							<td class="table__data artist">PLAVE</td>
+							<td class="table__data lyrics-composition">PLAVE, Vendors(Arte), Revin, YEZI, Vendors(Fascinador)</td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__data">2</td>
-							<td class="table__data"><img src="" alt="" /></td>
-							<td class="table__data">EASY</td>
-							<td class="table__data">LE SSERAFIM</td>
-							<td class="table__data">
+							<td class="table__data order">2</td>
+							<td class="table__data album-cover">
+								<img
+									class="album-cover__img"
+									src="https://musicmeta-phinf.pstatic.net/album/030/811/30811889.jpg?type=r360Fll&v=20240220101058"
+									alt="EASY"
+								/>
+							</td>
+							<td class="table__data song-name">
+								<a href="https://vibe.naver.com/track/83063750/">EASY</a>
+							</td>
+							<td class="table__data artist">LE SSERAFIM</td>
+							<td class="table__data lyrics-composition">
 								Sean Turk / Cashae / Amanda "Kiddo A.l." Ibanez / Sean Turk / Joseph Barrios / Alex Fernandez / Jordyn
 								Smith / Hadar Adora / Supreme Boi / SCORE(13) / Megatone(13) / "hitman"bang
 							</td>
 						</tr>
 						<tr class="table__row">
-							<td class="table__data">3</td>
-							<td class="table__data"><img src="" alt="" /></td>
-							<td class="table__data">Him & I</td>
-							<td class="table__data">Halsey, G-Eazy</td>
-							<td class="table__data">Jim Lavigne, Edgar Machuca, Dakarai Gwitira</td>
+							<td class="table__data order">3</td>
+							<td class="table__data album-cover">
+								<img
+									class="album-cover__img"
+									src="https://musicmeta-phinf.pstatic.net/album/002/279/2279953.jpg?type=r360Fll&v=20240129140514"
+									alt="The Beautiful & Damned"
+								/>
+							</td>
+							<td class="table__data song-name">
+								<a href="https://vibe.naver.com/track/20115452"> Him & I </a>
+							</td>
+							<td class="table__data artist">Halsey, G-Eazy</td>
+							<td class="table__data lyrics-composition">Jim Lavigne, Edgar Machuca, Dakarai Gwitira</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 			<div class="main__guest-book">
-				<h2 class="guest-book__title">방명록</h2>
+				<h2 class="guest-book__title">✍🏻 방명록</h2>
 				<form class="guest-book__form">
 					<div class="form__name">
 						<label for="user-id" class="name__label">이름</label>
-						<input type="text" id="user-id" class="name__input" autofocus required />
+						<input type="text" id="user-id" class="name__input" autofocus required maxlength="10" />
 					</div>
 					<div class="form__song">
 						<p class="song__title">당신이 알고 있는 노래</p>
-						<div>
+						<div class="song__input-group">
 							<input type="checkbox" name="plave" id="plave" class="song__checkbox" />
 							<label for="plave" class="song__label">Watch Me Woo! (PLAVE)</label>
 						</div>
-						<div>
+						<div class="song__input-group">
 							<input type="checkbox" name="le-sserafim" id="le-sserafim" class="song__checkbox" />
 							<label for="le-sserafim" class="song__label">EASY (LE SSERAFIM)</label>
 						</div>
-						<div>
+						<div class="song__input-group">
 							<input type="checkbox" name="halsey" id="halsey" class="song__checkbox" />
 							<label for="halsey" class="song__label">Him & I (Halsey, G-Eazy)</label>
 						</div>
